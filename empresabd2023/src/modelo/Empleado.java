@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author brecinosm
+ * @author EmanuelRecinos
  */
 public class Empleado extends Persona {
      Conexion cn;

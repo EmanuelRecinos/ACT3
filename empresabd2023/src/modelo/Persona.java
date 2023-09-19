@@ -8,7 +8,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author BryanRecinos
+ * @author EmanuelRecinos
  */
 abstract class Persona {
     

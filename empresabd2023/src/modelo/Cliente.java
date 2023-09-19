@@ -11,7 +11,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author BryanRecinos
+ * @author EmanuelRecinos
  */
 public class Cliente extends Persona {
     

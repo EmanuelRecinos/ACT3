@@ -2,7 +2,7 @@ package vista;
 
 /**
  *
- * @author BryanRecinos
+ * @author EmanuelRecinos
  */
 public class main {
 

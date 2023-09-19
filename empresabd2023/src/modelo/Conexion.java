@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author BryanRecinos
+ * @author EmanuelRecinos
  */
 public class Conexion {
 

@@ -6,7 +6,7 @@ package vista;
 import modelo.Empleado;
 /**
  *
- * @author brecinosm
+ * @author EmanuelRecinos
  */
 public class frm_empleado extends javax.swing.JFrame {
 Empleado empleado;
@@ -89,6 +89,11 @@ public void limpiar_datos(){
 
         lbl_nombres.setText("Nombres");
 
+        txt_nombres.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_nombresActionPerformed(evt);
+            }
+        });
         txt_nombres.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt_nombresKeyReleased(evt);
@@ -316,6 +321,10 @@ public void limpiar_datos(){
          tbl_empleado.setModel(empleado.leer());
         limpiar_datos();
     }//GEN-LAST:event_btn_eliminarActionPerformed
+
+    private void txt_nombresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nombresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_nombresActionPerformed
 
     /**
      * @param args the command line arguments
